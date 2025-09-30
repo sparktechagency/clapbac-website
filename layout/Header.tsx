@@ -31,7 +31,7 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   return (
     <header className="fixed w-full top-0 z-50 bg-[#191919]">
-      <div className="flex justify-between items-center bg-[#191919] px-16 py-2">
+      <div className="flex justify-between items-center bg-[#191919] px-4 lg:px-16 py-2">
         {/* logo */}
         <div className="">
           <Link href="/" className="flex items-center space-x-2">
